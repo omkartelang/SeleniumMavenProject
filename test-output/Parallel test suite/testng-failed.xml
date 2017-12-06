@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel test suite]">
+  <parameter name="browser" value="IE"/>
+  <test name="Firefox Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="multiBrowser.ParallelTest">
+        <methods>
+          <include name="login_TestCase"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- multiBrowser.ParallelTest -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="IE Test(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="multiBrowser.ParallelTest">
+        <methods>
+          <include name="login_TestCase"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- multiBrowser.ParallelTest -->
+    </classes>
+  </test> <!-- IE Test(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

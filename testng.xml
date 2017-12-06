@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  
+  <test name="GURU99TestNGAnt">
+    <classes>
+      <class name="sheinTestCase.AssigTC3"/>
+      <class name="googleTestCases.Google_TCs_01"/>
+    </classes>
+  </test>
+  
+   
+</suite>

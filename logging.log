@@ -1,0 +1,52 @@
+[main] DEBUG onlineStore.DataProviderWithExcel  - Hello.. im in Debug method
+[main] INFO  utility.ExcelUtils  - set test case name
+[main] DEBUG utility.ExcelUtils  - set excel file path and sheet
+[main] INFO  utility.ExcelUtils  - creating file inputstream object and setting up file path and sheet
+[main] DEBUG utility.ExcelUtils  - creating new object for workbook
+[main] DEBUG utility.ExcelUtils  - get sheet from workbook object
+[main] INFO  utility.ExcelUtils  - created xl sheet object
+[main] INFO  utility.ExcelUtils  - done setting up filepath and sheet name successfully
+[main] DEBUG utility.ExcelUtils  - get test case name
+[main] INFO  utility.ExcelUtils  - Parasing test case name
+[main] INFO  utility.ExcelUtils  - test case name parased successfully
+[main] DEBUG utility.ExcelUtils  - get test case row number
+[main] DEBUG utility.ExcelUtils  - get total column used for running test cases
+[main] DEBUG utility.ExcelUtils  - get row count for multiple data for tcs
+[main] DEBUG utility.ExcelUtils  - check number of rows
+[main] INFO  utility.ExcelUtils  - found multiple data for this tcs
+[main] INFO  utility.ExcelUtils  - set array size for array table
+[main] INFO  utility.ExcelUtils  - Data reading and fetching started...
+[main] DEBUG utility.ExcelUtils  - data fecting is : testuser_1
+[main] DEBUG utility.ExcelUtils  - data fecting is : Test@123
+[main] DEBUG utility.ExcelUtils  - data fecting is : Omkar
+[main] DEBUG utility.ExcelUtils  - data fecting is : Telang
+[main] DEBUG utility.ExcelUtils  - data fecting is : Vijay
+[main] DEBUG utility.ExcelUtils  - data fecting is : Gawhale
+[main] DEBUG utility.ExcelUtils  - data fecting is : Kiran
+[main] DEBUG utility.ExcelUtils  - data fecting is : Shete
+[main] INFO  utility.ExcelUtils  - Data feteched and stored successfully in arraytable
+[main] DEBUG utility.ExcelUtils  - set excel file path and sheet
+[main] INFO  utility.ExcelUtils  - creating file inputstream object and setting up file path and sheet
+[main] DEBUG utility.ExcelUtils  - creating new object for workbook
+[main] DEBUG utility.ExcelUtils  - get sheet from workbook object
+[main] INFO  utility.ExcelUtils  - created xl sheet object
+[main] INFO  utility.ExcelUtils  - done setting up filepath and sheet name successfully
+[main] DEBUG utility.ExcelUtils  - get test case name
+[main] INFO  utility.ExcelUtils  - Parasing test case name
+[main] INFO  utility.ExcelUtils  - test case name parased successfully
+[main] DEBUG utility.ExcelUtils  - get test case row number
+[main] DEBUG utility.ExcelUtils  - get total column used for running test cases
+[main] DEBUG utility.ExcelUtils  - get row count for multiple data for tcs
+[main] DEBUG utility.ExcelUtils  - check number of rows
+[main] INFO  utility.ExcelUtils  - found multiple data for this tcs
+[main] INFO  utility.ExcelUtils  - set array size for array table
+[main] INFO  utility.ExcelUtils  - Data reading and fetching started...
+[main] DEBUG utility.ExcelUtils  - data fecting is : testuser_1
+[main] DEBUG utility.ExcelUtils  - data fecting is : Test@123
+[main] DEBUG utility.ExcelUtils  - data fecting is : Omkar
+[main] DEBUG utility.ExcelUtils  - data fecting is : Telang
+[main] DEBUG utility.ExcelUtils  - data fecting is : Vijay
+[main] DEBUG utility.ExcelUtils  - data fecting is : Gawhale
+[main] DEBUG utility.ExcelUtils  - data fecting is : Kiran
+[main] DEBUG utility.ExcelUtils  - data fecting is : Shete
+[main] INFO  utility.ExcelUtils  - Data feteched and stored successfully in arraytable
